@@ -2,6 +2,8 @@
 
 An interactive system that translates voice into musical and visual art, capturing emotions through stories and mapping them into visual and auditory forms of storytelling.
 
+**Stack:** Flask + Socket.IO backend, Tone.js (audio synthesis) and p5.js (generative visuals) on the frontend, Hugging Face models for emotion detection from speech/text. Configured for Vercel deployment (see `vercel.json`).
+
 ## Overview
 
 Symphonic Stories listens to spoken narratives and instantly transforms them into synchronized musical scores and generative visual artwork that represents the emotional arc of the story.
@@ -35,7 +37,7 @@ Symphonic Stories listens to spoken narratives and instantly transforms them int
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/symphonic-stories.git
+git clone https://github.com/Faisalhakimi22/symphonic-stories.git
 cd symphonic-stories
 
 # Create and activate a virtual environment (recommended)
